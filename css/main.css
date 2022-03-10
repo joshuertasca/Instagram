@@ -244,13 +244,12 @@
     width: 100%;
 }
 .lineas div {
-    padding-top:12px ;
+    margin-top:12px  ;
     width: 43%;
 }
-
-.lineas2 hr {
-    color:var(--colorborde);
-
+.lineas2 {
+    background-color: var(--colorborde);
+    height: 1px;
 }
 
 .lineas p {
@@ -295,6 +294,6 @@ footer {
 .pie3 select {
     border: none;
     color: #8e8e8e;
-    
+    background-color: var(--colorfondo);
 }
 
